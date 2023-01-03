@@ -35,7 +35,7 @@ Mobile-view:
 
 ### Links
 
-- Solution URL: [Solution]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/interactive-card-details-form-_diKgg7KiT)
 - Live Site URL: [Live site](https://deepaktech40-card-details-form.netlify.app/)
 
 ## My process
