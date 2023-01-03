@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive card</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+    <main>
+        <section class="top">
+            <aside class="front">
+                <img src="/assets/images/card-logo.svg" alt="">
+                <p id="cardNo">0000 0000 0000 0000</p>
+                <p id="name">Jane Appleseed</p>
+                <p id="date">00/00</p>
+            </aside>
+            <aside class="back">
+                <!-- <img src="/assets/images/bg-card-back.png" alt=""> -->
+                <p id="cvv">000</p>
+            </aside>
+        </section>
+        <section class="form">
+            <form action="" class="f1">
+                <label for="cName">CARDHOLDER NAME</label>
+                <input type="text" name="cName" id="cN" class="i0" placeholder="e.g. Jane Appleseed">
+                <p id="eN" class="e0">Enter a valid name</p>
+                <label for="cNo">CARD NUMBER</label>
+                <input type="text" name="cNo" id="cNo" class="i1" placeholder="e.g. 0000 0000 0000 0000" maxlength="19">
+                <p id="eNo" class="e1">Wrong format, numbers only</p>
+                <div class="c1">
+                    <label for="cDate">EXP. DATE (MM/YY)</label>
+                    <label for="cvc">CVC</label>
+                </div>
+                <div>
+                    <input type="text" name="cDate" id="month" class="i2" placeholder="MM" maxlength="2">
+                    <input type="text" name="cDate" id="year" class="i3" placeholder="YY" maxlength="2">
+                    <input type="text" name="cvc" id="cvc" class="i4" placeholder="e.g. 123" maxlength="3">
+                </div>
+                <div class="c2">
+                    <p id="eDate" class="e2 e3">Can't be blank</p>
+                    <p id="eCv" class="e4">Can't be blank</p>
+                </div>
+                <input type="submit" id="btn" value="Confirm">
+            </form>
+            <form action="" class="f2">
+                <img src="/assets/images/icon-complete.svg" alt="">
+                <h1>THANK YOU!</h1>
+                <p>We've added your card details</p>
+                <input type="submit" value="Continue" id="cBtn">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Challenge by
+            <a href="https://www.frontendmentor.io/">Frontend Mentor</a> coded by
+            <a href="https://github.com/DEEPAK-tech40">Deepak</a>
+        </p>
+    </footer>
+    <script src="/scripts/index.js"></script>
+</body>
+
+</html>
