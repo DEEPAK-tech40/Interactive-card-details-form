@@ -9,7 +9,6 @@ const date = document.querySelector(`#date`);
 const cvv = document.querySelector(`#cvv`);
 const form1El = document.querySelector(`.f1`);
 const form2El = document.querySelector(`.f2`);
-let x = 0;
 
 form1El.addEventListener("submit", (e) => {
   let flag = true;
@@ -51,12 +50,10 @@ inputName.addEventListener("keyup", () => {
 });
 
 inputNum.addEventListener("keyup", () => {
-  x++;
   let st = inputNum.value;
-  if (x === 4) {
+  if (st.length === 4 || st.length === 9 || st.length === 14) {
     inputNum.value += " ";
     st += " ";
-    x = 0;
   }
   cardNo.textContent = `${st}`;
 });
