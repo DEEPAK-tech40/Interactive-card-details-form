@@ -4,6 +4,9 @@ This is a solution to the [Interactive card details form challenge on Frontend M
 
 ## Overview
 
+![desktop-preview](https://user-images.githubusercontent.com/94350356/210324115-278ca447-10c7-48b2-88cc-2bad5a36cb7e.jpg)
+
+
 ### The challenge
 
 Users should be able to:
@@ -16,6 +19,19 @@ Users should be able to:
 - See hover, active, and focus states for interactive elements on the page
 
 ### Screenshot
+
+Desktop-view:
+![active-states](https://user-images.githubusercontent.com/94350356/210324169-c8f81693-56a3-437a-ba57-3da88d251dad.jpg)
+
+![complete-state-desktop](https://user-images.githubusercontent.com/94350356/210324201-400f29c9-b9d2-4048-8f37-62f8dba2bc3a.jpg)
+
+Mobile-view:
+
+![mobile-design](https://user-images.githubusercontent.com/94350356/210324243-86860cae-cc80-48e3-a2d2-27864e5e3f26.jpg)
+
+![complete-state-mobile](https://user-images.githubusercontent.com/94350356/210324260-6a86fb1f-7f19-4bc7-b83c-16209d6fc02d.jpg)
+
+
 
 ### Links
 
