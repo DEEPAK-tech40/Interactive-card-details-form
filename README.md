@@ -20,7 +20,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution]()
-- Live Site URL: [Live site]()
+- Live Site URL: [Live site](https://deepaktech40-card-details-form.netlify.app/)
 
 ## My process
 
